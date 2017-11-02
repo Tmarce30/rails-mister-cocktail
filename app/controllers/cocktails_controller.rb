@@ -1,10 +1,11 @@
 class CocktailsController < ApplicationController
+
   def index
     @cocktails = Cocktail.all
   end
 
   def show
-    @cocktail = Cocktail.find(find_cocktail)
+    @cocktail = find_cocktail
   end
 
   def new
