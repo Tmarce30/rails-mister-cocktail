@@ -12,6 +12,10 @@
 
       <h2 class="text-center">Add a Dose</h2>
 
+      <%= cl_image_tag("zpqxnotaptlvdn2bjj72",
+      width: 400, height: 300, crop: :fill)%>
+
+
       <% if @dose.errors.any? %>
         <ul>
           <% @dose.errors.full_messages.each do |message| %>
