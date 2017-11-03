@@ -39,7 +39,10 @@ gem 'font-awesome-sass', '~> 4.2.0'
 gem 'simple_form'
 gem 'jquery-rails'
 gem 'figaro'
-gem 'cloudinary'
+gem 'cloudinary', '1.1.7'
+gem 'attachinary', github: 'assembler/attachinary'
+gem 'jquery-fileupload-rails'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
