@@ -8,6 +8,8 @@
 Cocktail.destroy_all
 Ingredient.destroy_all
 
+puts "Seeding database"
+
 cocktails = [
   {
     name: "Old Fashioned"
@@ -37,3 +39,5 @@ ingredients.each { |ingredient| Ingredient.create(name: ingredient) }
 
 
 cocktails.each { |cocktail| Cocktail.create(cocktail) }
+
+puts "End of Seeding"
